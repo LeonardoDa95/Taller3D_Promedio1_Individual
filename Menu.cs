@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Taller3D_Promedio1_Individual
 {
-    internal class Program
+    internal class Menu
     {
-        static void Main(string[] args)
+        public void Execute()
         {
-            Menu menu = new Menu();
-            menu.Execute();
+
         }
     }
 }

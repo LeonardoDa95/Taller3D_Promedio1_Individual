@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Taller3D_Promedio1_Individual
 {
-    internal class Program
+    internal abstract class Situation
     {
-        static void Main(string[] args)
-        {
-            Menu menu = new Menu();
-            menu.Execute();
-        }
+        public string SituationName { get; set; }
+
+        public abstract void Execute(Player player);
     }
 }
