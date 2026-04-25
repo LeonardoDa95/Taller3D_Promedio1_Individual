@@ -12,14 +12,8 @@ namespace Taller3D_Promedio1_Individual
         {
             Console.WriteLine("Situacion 3: Lider criminal");
             Console.WriteLine("Acorralas al líder del sindicato criminal en la azotea. El criminal arroja su arma y levanta las manos.");
-            if (player.Morality == 2)
-            {
-                Console.WriteLine("1. Arrestarlo y asegurar que enfrente la justicia en los tribunales.");
-            }
-            else
-            {
-            Console.WriteLine("2. Empujarlo al vacío y terminar con el problema de raíz.");
-            }
+            Console.WriteLine("1. Arrestarlo y asegurar que enfrente la justicia en los tribunales.");
+            Console.WriteLine("2. Empujarlo al vacío y terminar con el problema de raíz."); 
             Console.WriteLine("¿Que decides hacer? (1 o 2");
             string choise = Console.ReadLine();
 

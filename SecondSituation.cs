@@ -14,7 +14,7 @@ namespace Taller3D_Promedio1_Individual
             Console.WriteLine("Mientras revisavas el almacen logras ver una pasillo oscuro.");
             Console.WriteLine("1. Usar una granada cegadora para incapacitarlos sin usar fuerza letal.");
             Console.WriteLine("2. Desenfundar y neutralizarlos rápidamente con disparos certeros.");
-            Console.WriteLine("¿Que decides hacer? (1 o 2");
+            Console.WriteLine("¿Que decides hacer? (1 o 2)");
             string choise = Console.ReadLine();
 
             if (choise == "1")
